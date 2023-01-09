@@ -1,38 +1,19 @@
-# create-svelte
+# university-web-app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## How to run
 
-## Creating a project
+Requires Node.js: https://nodejs.org/en/
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+git clone https://github.com/szmarczak/university-web-app
+cd university-web-app
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+## What is this?
 
-## Building
+This is a jamstack:
+- frontend: SvelteKit + Tailwind + PostCSS + Vite,
+- backend: Supabase.
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Those tools were used to create a simple TODO app. The app consists of components, validation, CRUD operations, hashed passwords, and all the necessary things required to pass the assessment.
